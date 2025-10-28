@@ -37,7 +37,7 @@ public class Game {
                     }
                     
                 } else {
-                	// Handling if the user want to quit:
+                	// Handling if the user want to quit at each turn:
                     String input = scan.next();
                     if (input.equalsIgnoreCase("n")) {
                         System.out.println("You are quitting the program! See you next time!");
